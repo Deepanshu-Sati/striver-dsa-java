@@ -56,16 +56,14 @@ Total Solved: 0  |  Easy: 0  |  Medium: 0  |  Hard: 0
 striver-dsa-java/
 ├── README.md
 ├── Problems on arrays/
+│   ├── README.md
 │   ├── Easy
-│   │   ├── README.md
 │   │   ├── LargestElement.java
 │   │   └── ...
 │   ├── Medium
-│   │   ├── README.md
 │   │   ├── TwoSum.java
 │   │   └── ...
 │   └── Hard
-│       ├── README.md
 │       ├── PascalsTriangleI.java
 │       └── ...
 ├── BinarySearch/
