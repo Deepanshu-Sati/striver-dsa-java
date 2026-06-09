@@ -1,7 +1,15 @@
 # Problems on Arrays
 
-| # | Problem                                                                                                     | Difficulty | Approach      | Solution                                                      |
-|---|-------------------------------------------------------------------------------------------------------------|------------|---------------|---------------------------------------------------------------|
-| 1 | Largest Element                                                                                             | Easy       | Linear Search | [LargestElement.java](./Easy/LargestElement.java)             |
-| 2 | Second Largest Element                                                                                      | Easy       | Linear Search | [SecondLargestElement.java](./Easy/SecondLargestElement.java) |
-| 2 | [Check if Array is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy       | Linear Search | [CheckSorted.java](./Easy/CheckSorted.java)                   |
+| #  | Problem                                                                                                     | Difficulty | Approach                       | Solution                                                      |
+|----|-------------------------------------------------------------------------------------------------------------|------------|--------------------------------|---------------------------------------------------------------|
+| 1  | Largest Element                                                                                             | Easy       | Linear Search                  | [LargestElement.java](./Easy/LargestElement.java)             |
+| 2  | Second Largest Element                                                                                      | Easy       | Linear Search                  | [SecondLargestElement.java](./Easy/SecondLargestElement.java) |
+| 3  | [Check if Array is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy       | Linear Search                  | [CheckSorted.java](./Easy/CheckSorted.java)                   | 
+| 4  | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)   | Easy       | Linear Search                  | [RemoveDuplicates.java](./Easy/RemoveDuplicates.java)         |
+| 5  | Left Rotate Array by One                                                                                    | Easy       | Linear Scan                    | [LeftRotateBy1](./Easy/LeftRotateBy1.java)                    |
+| 6  | [Rotate Array by K places](https://leetcode.com/problems/rotate-array/)                                     | Easy       | Reverse the array              | [RotateArrayByK.java](./Easy/RotateArrayByK.java)             |
+| 7  | [Move Zeroes to End](https://leetcode.com/problems/move-zeroes/)                                            | Easy       | Two Pointers and Linear Search | [MoveZeroes.java](./Easy/MoveZeroes.java)                     |
+| 8  | Linear Search                                                                                               | Easy       | Linear Search                  | [LinearSearch.java](./Easy/LinearSearch.java)                 |
+| 9  | Union of Two Sorted Arrays                                                                                  | Easy       | Two Pointers                   | [UnionOfSortedArr](./Easy/UnionOfSortedArr.java)              | 
+| 10 | [Find Missing Number](https://www.geeksforgeeks.org/dsa/find-the-missing-number/)                           | Easy       | Cyclic Sort                    | [FindMissingNumber.java](./Easy/FindMissingNumber.java)       |
+| 11 | [Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)                             | Easy       | Linear Search                  | [MaxConsecutiveOnes.java](./Easy/MaxConsecutiveOnes.java)     | 
