@@ -8,7 +8,7 @@ package Strings.Basics;
  * Time complexity  : O(N)
  * Space complexity : O(1)
  */
-class Solution {
+class OuterParentheses {
     static String removeOuterParentheses(String s) {
         StringBuilder result = new StringBuilder();
         int level = 0;
