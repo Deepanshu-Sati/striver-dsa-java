@@ -14,30 +14,30 @@ Started: June 2026
 
 ## Progress
 
-Total Solved: 0  |  Easy: 0  |  Medium: 0  |  Hard: 0
+Total Solved: 44   |  Easy: 23  |  Medium: 19  |  Hard: 2
 
 ---
 
 ## Topics
 
-| Topic | Problems Solved | Status |
-|-------|----------------|--------|
-| Arrays | 0 | 🔄 In Progress |
-| Binary Search | 0 | ⏳ Upcoming |
-| Strings (Basic and Medium) | 0 | ⏳ Upcoming |
-| Linked Lists | 0 | ⏳ Upcoming |
-| Recursion | 0 | ⏳ Upcoming |
-| Bit Manipulation | 0 | ⏳ Upcoming |
-| Stacks & Queues | 0 | ⏳ Upcoming |
-| Sliding Window & Two Pointer | 0 | ⏳ Upcoming |
-| Heaps | 0 | ⏳ Upcoming |
-| Greedy Algorithms | 0 | ⏳ Upcoming |
-| Binary Trees | 0 | ⏳ Upcoming |
-| Binary Search Trees | 0 | ⏳ Upcoming |
-| Graphs | 0 | ⏳ Upcoming |
-| Dynamic Programming | 0 | ⏳ Upcoming |
-| Tries | 0 | ⏳ Upcoming |
-| Strings (Hard) | 0 | ⏳ Upcoming |
+| Topic                        | Problems Solved | Status         |
+|------------------------------|-----------------|----------------|
+| Arrays                       | 19              | 🔄 In Progress |
+| Binary Search                | 21              | 🔄 In Progress |
+| Strings (Basic and Medium)   | 4               | 🔄 In Progress |
+| Linked Lists                 | 0               | ⏳ Upcoming     |
+| Recursion                    | 0               | 🔄 In Progress |
+| Bit Manipulation             | 0               | ⏳ Upcoming     |
+| Stacks & Queues              | 0               | ⏳ Upcoming     |
+| Sliding Window & Two Pointer | 0               | ⏳ Upcoming     |
+| Heaps                        | 0               | ⏳ Upcoming     |
+| Greedy Algorithms            | 0               | ⏳ Upcoming     |
+| Binary Trees                 | 0               | ⏳ Upcoming     |
+| Binary Search Trees          | 0               | ⏳ Upcoming     |
+| Graphs                       | 0               | ⏳ Upcoming     |
+| Dynamic Programming          | 0               | ⏳ Upcoming     |
+| Tries                        | 0               | ⏳ Upcoming     |
+| Strings (Hard)               | 0               | ⏳ Upcoming     |
 
 ---
 
