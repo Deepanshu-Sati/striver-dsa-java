@@ -1,7 +1,22 @@
 package Recursion.GetAStrongHold;
 
-class Solution {
-    public double myPow(double x, int n) {
+/*
+ * Link             : https://leetcode.com/problems/powx-n/description/
+ * Problem          : Power of x raised to n
+ * Difficulty       : Medium
+ * Approach         : Recursion and mathematics
+ * Time complexity  : O(logN)
+ * Space complexity : O(1)
+ */
+
+class PowXn {
+
+    public static void main(String[] args){
+        double x = 6.5;
+        int n = 5;
+        System.out.println(myPow(x, n));
+    }
+    static double myPow(double x, int n) {
         //n is negative
         if (n < 0) {
             long nn = n;
