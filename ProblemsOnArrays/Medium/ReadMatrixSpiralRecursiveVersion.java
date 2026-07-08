@@ -30,7 +30,7 @@ class ReadMatrixSpiralRecursiveVersion {
 
     static void helper(int[][] matrix, int first_row, int first_col, int last_row, int last_col, List<Integer> list){
         //base condition :
-        if(first_row>last_row || first_col>last_col){
+        if(first_row>last_row && first_col>last_col){
             return;
         }
         //forward
