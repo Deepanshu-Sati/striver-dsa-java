@@ -12,53 +12,29 @@ package Recursion.SubsequencesPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-class PhoneNumberCombinations {
+class Solution {
+    static String[] map = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
     static List<String> letterCombinations(String digits) {
-        if (digits.isEmpty()) {
-            return new ArrayList<>();
+        List<String> ans = new ArrayList<>();
+        if(digits.isEmpty()){
+            return ans;
         }
-        return numpad("", digits);
+        numpad(new StringBuilder(), digits, 0, ans);
+        return ans;
     }
 
-    static List<String> numpad(String p, String up){
-        if (up.isEmpty()){
-            List<String> list = new ArrayList<>();
-            list.add(p);
-            return list;
+    static void numpad(StringBuilder processed, String digits, int index, List<String> ans){
+        if(index == digits.length()){
+            ans.add(processed.toString());
+            return;
         }
+        int digit = digits.charAt(index) - '0';
+        String str = map[digit];
 
-        List<String> list = new ArrayList<>();
-        int digit = up.charAt(0)-'0';
-
-        if(digit>=2 && digit<=6){
-            for(int i = (digit-2)*3; i<(digit-1)*3; i++){
-                char ch = (char)('a' + i);
-                list.addAll(numpad(p+ch, up.substring(1)));
-            }
+        for(int i = 0; i<str.length(); i++){
+            numpad(processed.append(str.charAt(i)), digits, index+1, ans);
+            processed.deleteCharAt(processed.length()-1);
         }
-
-        else if(digit==7){
-            for(int i = (digit-2)*3; i<=(digit-1)*3; i++){
-                char ch = (char)('a' + i);
-                list.addAll(numpad(p+ch, up.substring(1)));
-            }
-        }
-
-        else if(digit==8){
-            for(int i = (digit-2)*3+1; i<=(digit-1)*3; i++){
-                char ch = (char)('a' + i);
-                list.addAll(numpad(p+ch, up.substring(1)));
-            }
-        }
-
-        else{
-            for(int i = ((digit-2)*3)+1; i<=((digit-1)*3)+1; i++){
-                char ch = (char)('a' + i);
-                list.addAll(numpad(p+ch, up.substring(1)));
-            }
-        }
-
-        return list;
     }
 
     public static void main(String[] args){
