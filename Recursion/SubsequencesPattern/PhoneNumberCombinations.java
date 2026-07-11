@@ -12,7 +12,7 @@ package Recursion.SubsequencesPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class PhoneNumberCombinations {
     static String[] map = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
     static List<String> letterCombinations(String digits) {
         List<String> ans = new ArrayList<>();
