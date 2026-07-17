@@ -1,4 +1,4 @@
-package Strings.Basics;
+package Strings.Medium;
 
 /*
  * Link             : https://leetcode.com/problems/string-to-integer-atoi/description/
